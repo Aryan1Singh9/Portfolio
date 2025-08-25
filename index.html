@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aryan Singh – Filmmaker & Screenwriter</title>
+  <meta name="description" content="Portfolio of Aryan Singh – Filmmaker & Screenwriter." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    :root{
+      --accent: 99,102,241;  /* indigo-500 */
+      --accent-600: 79,70,229;
+      --accent-700: 67,56,202;
+      --neutral: 100,116,139; /* slate-500 */
+    }
+    .accent-bg{
+      background:
+        radial-gradient(800px 400px at 10% 10%, rgba(var(--accent),.12), transparent),
+        radial-gradient(800px 400px at 90% 90%, rgba(var(--accent),.08), transparent);
+    }
+    .btn-primary{ background-color: rgb(var(--accent)); color:#fff; }
+    .btn-primary:hover{ background-color: rgb(var(--accent-600)); }
+    .chip{ border:1px solid rgba(0,0,0,.08) }
+    .bar{
+      border:1px solid rgba(0,0,0,.08); border-radius:1rem; overflow:hidden; background:#fff;
+    }
+    .bar-top{
+      height:56px; display:flex; align-items:center; justify-content:space-between; gap:.75rem; padding:.5rem .75rem;
+      background:linear-gradient(90deg, rgba(100,116,139,.12), rgba(99,102,241,.18));
+    }
+    .favicon{
+      width:22px; height:22px; border-radius:.4rem; background:#fff; padding:2px; box-shadow:0 2px 8px rgba(0,0,0,.15);
+    }
+    .play{
+      width:28px; height:28px; border-radius:9999px; display:grid; place-items:center; background:#fff; border:1px solid rgba(0,0,0,.08);
+    }
+    .card-grad{ background:linear-gradient(135deg, rgba(100,116,139,.12), rgba(99,102,241,.18)); }
+    .section-title{ scroll-margin-top:80px; }
+  </style>
+</head>
+<body class="bg-white text-slate-900">
+  <div class="fixed inset-0 -z-10 accent-bg"></div>
+
+  <!-- Nav -->
+  <header class="sticky top-0 z-50 border-b bg-white/80 backdrop-blur">
+    <nav class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+      <a href="#top" class="font-semibold tracking-tight">Aryan Singh</a>
+      <div class="hidden md:flex gap-6 text-sm">
+        <a href="#top" class="hover:opacity-80">Home</a>
+        <a href="#about" class="hover:opacity-80">About</a>
+        <a href="#edu" class="hover:opacity-80">Education & Skills</a>
+        <a href="#now" class="hover:opacity-80">2025</a>
+        <a href="#work" class="hover:opacity-80">Selected Works</a>
+        <a href="#works-2017-2022" class="hover:opacity-80">Works 2017–2022</a>
+      </div>
+      <a href="https://www.imdb.com/name/nm11659676/?ref_=ext_shr" target="_blank" rel="noopener" class="rounded-full btn-primary px-4 py-2 text-sm shadow">IMDb</a>
+    </nav>
+  </header>
+
+  <!-- Name + Bio + Contact -->
+  <section id="top" class="py-16 md:py-24">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">Aryan Singh</h1>
+        <p class="mt-3 text-lg md:text-xl text-slate-700">Filmmaker & Screenwriter</p>
+        <p class="mt-4 text-base leading-relaxed">
+          I’m a filmmaker and screenwriter. I tell stories rooted in humour that reflect the times we live in. You’ll often find me experimenting with form and narrative, but when it comes to dialogue, I slip easily across genres, from playful to profound, from independent high concept films to mainstream punches.
+        </p>
+
+        <div class="mt-6 space-y-1 text-sm">
+          <div><span class="font-medium">Contact:</span> <a class="underline" href="mailto:aryan1.singh9@gmail.com">aryan1.singh9@gmail.com</a></div>
+          <div><span class="font-medium">Social:</span> <a class="underline" href="https://www.instagram.com/dusht.jester/?hl=en" target="_blank" rel="noopener">@dusht.jester</a></div>
+        </div>
+
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#work" class="rounded-full border px-5 py-2 text-sm hover:shadow-sm">View Selected Works</a>
+          <a href="https://vimeo.com/603437134" target="_blank" rel="noopener" class="rounded-full btn-primary px-5 py-2 text-sm shadow">Watch: Ek Film Director Ki Maut</a>
+        </div>
+      </div>
+
+      <!-- Subtle visual (Vimeo) -->
+      <div class="rounded-2xl border overflow-hidden bg-black/5 shadow-sm">
+        <div style="position:relative;padding-top:56.25%">
+          <iframe src="https://player.vimeo.com/video/603437134" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Ek Film Director Ki Maut"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 md:py-24 section-title">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8">About</h2>
+      <div class="grid md:grid-cols-3 gap-8 items-start">
+        <p class="md:col-span-2">
+          I’m Aryan Singh, a filmmaker and writer based in Mumbai, India. Currently, I’m completing post production on my directorial feature debut, a film that continues my love for exploring how humour and human drama intersect with the world around us. My journey so far has taken me through writing and directing the independent feature <em>Meri Jaan Bacha Meri Jaan</em>, serving as an Assistant Director on <em>Weekdays &amp; Weekends</em> (now streaming on Apple TV), and collaborating as Assistant/Co-Writer with Abhijeet Deshpande and Sai Kabir on projects including the upcoming feature <em>Park Street</em>.
+          <br><br>
+          Beyond films, I’ve hosted one-on-one conversations with filmmakers for Whitebirdtrails, which has given me fresh perspectives on the craft I love and helped me discover my voice. As of 2025, I’ve written the story of the feature film <em>Chingam</em>, officially selected at the <em>Chicago South Asian Film Festival</em>, and I’m currently writing and developing multiple projects at <strong>Jumping Tomato Studios</strong> under the direction of <em>Rohandeep Singh Bisht</em>. For me, every project is an experiment, a chance to play with form, stretch narrative, and discover new ways to connect with an audience.
+        </p>
+        <div class="rounded-2xl border p-6 bg-white/70 shadow-sm">
+          <div class="grid grid-cols-2 gap-4 text-center">
+            <div><div class="text-3xl font-bold">20+</div><div class="text-xs text-slate-500">Shorts AD'd</div></div>
+            <div><div class="text-3xl font-bold">10+</div><div class="text-xs text-slate-500">Festival laurels</div></div>
+            <div><div class="text-3xl font-bold">2019</div><div class="text-xs text-slate-500">Jio MAMI</div></div>
+            <div><div class="text-3xl font-bold">Apple TV</div><div class="text-xs text-slate-500">Weekdays & Weekends</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Skills -->
+  <section id="edu" class="py-16 md:py-24 bg-slate-50 section-title">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8">Education & Skills</h2>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="rounded-2xl border p-6 bg-white shadow-sm">
+          <strong>B.Sc. in Filmmaking (Specialising in Direction)</strong><br/>Whistling Woods International (TISS)
+        </div>
+        <div class="rounded-2xl border p-6 bg-white shadow-sm">
+          <strong>ISC — 2017</strong><br/>Brooklyn School, Dehradun
+        </div>
+        <div class="rounded-2xl border p-6 bg-white shadow-sm">
+          <strong>ICSE — 2015</strong><br/>Brooklyn School, Dehradun
+        </div>
+      </div>
+
+      <div class="mt-6 flex flex-wrap gap-2">
+        <span class="chip inline-block rounded-full px-3 py-1 text-sm">Direction</span>
+        <span class="chip inline-block rounded-full px-3 py-1 text-sm">Screenwriting</span>
+        <span class="chip inline-block rounded-full px-3 py-1 text-sm">Dialogue — Hindi (multiple dialects)</span>
+        <span class="chip inline-block rounded-full px-3 py-1 text-sm">Dialogue — English</span>
+        <span class="chip inline-block rounded-full px-3 py-1 text-sm">Creative Development</span>
+        <span class="chip inline-block rounded-full px-3 py-1 text-sm">Editing</span>
+        <span class="chip inline-block rounded-full px-3 py-1 text-sm">One-on-One Interviews</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- “2025” (Now) -->
+  <section id="now" class="py-16 md:py-24 section-title">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8">2025</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="rounded-2xl border p-6 bg-white shadow-sm">
+          <h3 class="font-semibold text-lg">Chingam — Feature Story</h3>
+          <p class="text-sm text-slate-600 mt-1">Official Selection: Chicago South Asian Film Festival</p>
+        </div>
+        <div class="rounded-2xl border p-6 bg-white shadow-sm">
+          <h3 class="font-semibold text-lg">Writer — Jumping Tomato Studios</h3>
+          <p class="text-sm text-slate-600 mt-1">Working under the direction of Rohandeep Singh Bisht on multiple projects</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Selected Works (minibar cards) -->
+  <section id="work" class="py-16 md:py-24 bg-slate-50 section-title">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8">Selected Works</h2>
+
+      <!-- Lead with festivals -->
+      <div class="rounded-2xl overflow-hidden border bg-white shadow-sm mb-6">
+        <div class="h-24 card-grad"></div>
+        <div class="p-6">
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <h3 class="text-xl font-semibold">Ek Film Director Ki Maut</h3>
+            <div class="flex gap-2">
+              <a href="https://vimeo.com/603437134" target="_blank" rel="noopener" class="btn-primary px-3 py-1 rounded-full text-sm">Vimeo</a>
+              <a href="https://m.imdb.com/title/tt15741120/?language=hi-in&ref_=ext_shr_lnk" target="_blank" rel="noopener" class="px-3 py-1 rounded-full text-sm border">IMDb</a>
+            </div>
+          </div>
+          <ul class="list-disc pl-5 mt-3 text-sm space-y-1">
+            <li>Selections: IFFSA Toronto, 7th Jaipur Film World (2023)</li>
+            <li>Awards: Druk IFF, Royal Society of Television & Motion Picture Awards, Calcutta ICFF, Black Swan IFF, Darbhanga IFF, Indo-French IFF, Virgin Spring Cinefest, Chambal IFF</li>
+            <li>Prague International Indie Film Festival — Semi-Finalist</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Minibar row cards -->
+      <div class="grid md:grid-cols-2 gap-4">
+        <!-- Vividh Bharti -->
+        <a href="https://shorted.in/short-films/vividh-bharti-india-nationalism-kashmir/" target="_blank" rel="noopener" class="bar group">
+          <div class="bar-top">
+            <div class="flex items-center gap-3">
+              <span class="play">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M8 5v14l11-7L8 5z" stroke="currentColor"/></svg>
+              </span>
+              <div class="text-sm font-medium">Vividh Bharti Ft. Rashtravaad and A Few Mobile Recordings</div>
+            </div>
+            <img class="favicon" src="https://www.google.com/s2/favicons?domain=shorted.in&sz=128" alt="shorted">
+          </div>
+          <div class="px-4 py-3 text-xs text-slate-600">Dimensions Mumbai, Jio MAMI Film Festival (2019)</div>
+        </a>
+
+        <!-- Var Vadhu.gov -->
+        <a href="https://shorted.in/short-films/var-vadhu-couples-extremism/" target="_blank" rel="noopener" class="bar group">
+          <div class="bar-top">
+            <div class="flex items-center gap-3">
+              <span class="play"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M8 5v14l11-7L8 5z" stroke="currentColor"/></svg></span>
+              <div class="text-sm font-medium">Var Vadhu.gov</div>
+            </div>
+            <img class="favicon" src="https://www.google.com/s2/favicons?domain=shorted.in&sz=128" alt="shorted">
+          </div>
+          <div class="px-4 py-3 text-xs text-slate-600">Dimensions Mumbai, Jio MAMI Film Festival (2019)</div>
+        </a>
+
+        <!-- Aghori -->
+        <a href="https://shorted.in/short-films/aghori-intoxicants-conspiracy-theory/" target="_blank" rel="noopener" class="bar group">
+          <div class="bar-top">
+            <div class="flex items-center gap-3">
+              <span class="play"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M8 5v14l11-7L8 5z" stroke="currentColor"/></svg></span>
+              <div class="text-sm font-medium">Aghori</div>
+            </div>
+            <img class="favicon" src="https://www.google.com/s2/favicons?domain=shorted.in&sz=128" alt="shorted">
+          </div>
+          <div class="px-4 py-3 text-xs text-slate-600">Shorted feature page</div>
+        </a>
+
+        <!-- One For Love, Krodhraj! -->
+        <a href="https://shorted.in/short-films/one-for-love-krodhraj/" target="_blank" rel="noopener" class="bar group">
+          <div class="bar-top">
+            <div class="flex items-center gap-3">
+              <span class="play"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M8 5v14l11-7L8 5z" stroke="currentColor"/></svg></span>
+              <div class="text-sm font-medium">One For Love, Krodhraj!</div>
+            </div>
+            <img class="favicon" src="https://www.google.com/s2/favicons?domain=shorted.in&sz=128" alt="shorted">
+          </div>
+          <div class="px-4 py-3 text-xs text-slate-600">Shorted feature page</div>
+        </a>
+
+        <!-- Pravaasi.jpeg -->
+        <a href="https://shorted.in/short-films/pravaasi-jpeg-pandemic-media/" target="_blank" rel="noopener" class="bar group">
+          <div class="bar-top">
+            <div class="flex items-center gap-3">
+              <span class="play"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M8 5v14l11-7L8 5z" stroke="currentColor"/></svg></span>
+              <div class="text-sm font-medium">Pravaasi.jpeg</div>
+            </div>
+            <img class="favicon" src="https://www.google.com/s2/favicons?domain=shorted.in&sz=128" alt="shorted">
+          </div>
+          <div class="px-4 py-3 text-xs text-slate-600">Shorted feature page</div>
+        </a>
+
+        <!-- Phool Kumari Ki Geet Maala -->
+        <a href="https://shorted.in/short-films/phool-kumari-ki-geet-maala/" target="_blank" rel="noopener" class="bar group">
+          <div class="bar-top">
+            <div class="flex items-center gap-3">
+              <span class="play"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M8 5v14l11-7L8 5z" stroke="currentColor"/></svg></span>
+              <div class="text-sm font-medium">Phool Kumari Ki Geet Maala</div>
+            </div>
+            <img class="favicon" src="https://www.google.com/s2/favicons?domain=shorted.in&sz=128" alt="shorted">
+          </div>
+          <div class="px-4 py-3 text-xs text-slate-600">Shorted feature page</div>
+        </a>
+
+        <!-- Pavi's Fool -->
+        <a href="https://shorted.in/short-films/pavis-fool-experimental/" target="_blank" rel="noopener" class="bar group">
+          <div class="bar-top">
+            <div class="flex items-center gap-3">
+              <span class="play"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M8 5v14l11-7L8 5z" stroke="currentColor"/></svg></span>
+              <div class="text-sm font-medium">Pavi’s Fool</div>
+            </div>
+            <img class="favicon" src="https://www.google.com/s2/favicons?domain=shorted.in&sz=128" alt="shorted">
+          </div>
+          <div class="px-4 py-3 text-xs text-slate-600">Shorted feature page</div>
+        </a>
+
+        <!-- Seeta Sadan -->
+        <a href="https://drive.google.com/file/d/1OJoaoI8ekya28Tow6d8KN1dJtESTHX38/view?usp=drivesdk" target="_blank" rel="noopener" class="bar group">
+          <div class="bar-top">
+            <div class="flex items-center gap-3">
+              <span class="play"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M8 5v14l11-7L8 5z" stroke="currentColor"/></svg></span>
+              <div class="text-sm font-medium">Seeta Sadan (3-minute Non-Fiction)</div>
+            </div>
+            <img class="favicon" src="https://www.google.com/s2/favicons?domain=drive.google.com&sz=128" alt="drive">
+          </div>
+          <div class="px-4 py-3 text-xs text-slate-600">Google Drive link</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Works from 2017–2022 (CLUBBED LINKS + CONTENT) -->
+  <section id="works-2017-2022" class="py-16 md:py-24 section-title">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6">Works from 2017–2022</h2>
+
+      <!-- Features & Shorts -->
+      <div class="rounded-2xl border p-6 bg-white shadow-sm mb-6">
+        <h3 class="text-lg font-semibold">Features & Shorts</h3>
+        <ul class="list-disc pl-5 mt-2 text-sm space-y-2">
+          <li><strong>Ek Film Director Ki Maut</strong> — <a class="underline" target="_blank" rel="noopener" href="https://vimeo.com/603437134">Vimeo</a> · <a class="underline" target="_blank" rel="noopener" href="https://m.imdb.com/title/tt15741120/?language=hi-in&ref_=ext_shr_lnk">IMDb</a></li>
+          <li><strong>Vividh Bharti Ft. Rashtravaad and A Few Mobile Recordings</strong> (2019) — <a class="underline" target="_blank" rel="noopener" href="https://shorted.in/short-films/vividh-bharti-india-nationalism-kashmir/">Shorted</a></li>
+          <li><strong>Var Vadhu.gov</strong> (2019) — <a class="underline" target="_blank" rel="noopener" href="https://shorted.in/short-films/var-vadhu-couples-extremism/">Shorted</a></li>
+          <li><strong>Aghori</strong> — <a class="underline" target="_blank" rel="noopener" href="https://shorted.in/short-films/aghori-intoxicants-conspiracy-theory/">Shorted</a></li>
+          <li><strong>One For Love, Krodhraj!</strong> — <a class="underline" target="_blank" rel="noopener" href="https://shorted.in/short-films/one-for-love-krodhraj/">Shorted</a></li>
+          <li><strong>Pravaasi.jpeg</strong> — <a class="underline" target="_blank" rel="noopener" href="https://shorted.in/short-films/pravaasi-jpeg-pandemic-media/">Shorted</a></li>
+          <li><strong>Phool Kumari Ki Geet Maala</strong> — <a class="underline" target="_blank" rel="noopener" href="https://shorted.in/short-films/phool-kumari-ki-geet-maala/">Shorted</a></li>
+          <li><strong>Pavi’s Fool</strong> — <a class="underline" target="_blank" rel="noopener" href="https://shorted.in/short-films/pavis-fool-experimental/">Shorted</a></li>
+          <li><strong>Seeta Sadan</strong> (3-minute Non-Fiction) — <a class="underline" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1OJoaoI8ekya28Tow6d8KN1dJtESTHX38/view?usp=drivesdk">Drive</a></li>
+        </ul>
+      </div>
+
+      <!-- Roles -->
+      <div class="rounded-2xl border p-6 bg-white shadow-sm mb-6">
+        <h3 class="text-lg font-semibold">Roles</h3>
+        <ul class="list-disc pl-5 mt-2 text-sm space-y-2">
+          <li><strong>Associate Director — Kaniyadaan</strong> — <a class="underline" target="_blank" rel="noopener" href="https://m.imdb.com/title/tt27518813/?ref_=ext_shr_lnk">IMDb</a></li>
+          <li><strong>Chief Assistant Director — Weekdays &amp; Weekends</strong> — <a class="underline" target="_blank" rel="noopener" href="https://m.imdb.com/title/tt26741816/?ref_=ext_shr_lnk">IMDb</a> <span class="text-xs text-slate-600">(on Apple TV)</span></li>
+        </ul>
+      </div>
+
+      <!-- Student & Workshop -->
+      <div class="rounded-2xl border p-6 bg-white shadow-sm">
+        <h3 class="text-lg font-semibold">Student & Workshop Films</h3>
+        <ul class="list-disc pl-5 mt-2 text-sm space-y-2">
+          <li>Wrote/edited/shot/directed multiple shorts at Whistling Woods</li>
+          <li>Assistant Director on 20+ student shorts across 4 semesters</li>
+          <li>Mise En Scene workshop film — 5-min short on a studio-built Kamathipura alley set</li>
+          <li>Production Assistant & Promo Editor — <em>Turmali</em> (Anunaad)</li>
+          <li>Wrote street plays for Dehradun college theatre groups; ads for local radio</li>
+        </ul>
+        <div class="grid sm:grid-cols-2 gap-3 mt-4">
+          <a class="underline text-sm" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1yLcclSy4xb0pVdPN0djV4mulkng8Ltf-/view">Babul Ki Dua (Mise En Scene)</a>
+          <a class="underline text-sm" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1oYOZAh6jxuLUXmY-cpNLpQsp7dZXkBQC/view?usp=drivesdk">Priye Kanha (Dialogue Writer)</a>
+        </div>
+      </div>
+
+      <!-- Profile -->
+      <div class="text-sm text-slate-600 mt-6">
+        Also see: <a class="underline" target="_blank" rel="noopener" href="https://www.imdb.com/name/nm11659676/?ref_=ext_shr">IMDb Profile</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t py-10 mt-8">
+    <div class="max-w-6xl mx-auto px-4 text-sm text-slate-600">
+      © 2025 Aryan Singh. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>

@@ -47,7 +47,7 @@
     }
     .section-title{ scroll-margin-top:80px; }
 
-    /* Simple thumbnail styling for IMDb/Mubi posters */
+    /* Simple thumbnail styling for IMDb/Mubi posters (kept in case you add others later) */
     .thumb-poster{
       border-radius:1rem;
       object-fit:cover;
@@ -107,30 +107,17 @@
         </div>
       </div>
 
-      <!-- Vimeo + Poster visual -->
+      <!-- Vimeo only (thumbnail removed) -->
       <div class="rounded-2xl border overflow-hidden bg-white/60 shadow-lg">
-        <div class="grid md:grid-cols-2 gap-0">
-          <!-- NOTE: replace this src with an actual poster thumbnail from your IMDb/Mubi profile -->
-          <div class="hidden md:block">
-            <img
-              src="/images/ek-film-director-ki-maut-thumb.jpg"
-              alt="Ek Film Director Ki Maut Poster"
-              class="w-full h-full thumb-poster"
-            />
-          </div>
-          <div class="w-full">
-            <div style="position:relative;padding-top:56.25%">
-              <!-- Updated Vimeo embed to new video -->
-              <iframe
-                src="https://player.vimeo.com/video/869965869?h=edbe0d789c"
-                style="position:absolute;top:0;left:0;width:100%;height:100%;"
-                frameborder="0"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowfullscreen
-                title="Ek Film Director Ki Maut"
-              ></iframe>
-            </div>
-          </div>
+        <div style="position:relative;padding-top:56.25%">
+          <iframe
+            src="https://player.vimeo.com/video/869965869?h=edbe0d789c"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+            title="Ek Film Director Ki Maut"
+          ></iframe>
         </div>
       </div>
     </div>
@@ -213,7 +200,7 @@
           <p class="text-sm text-slate-600 mt-1">Working under the direction of Rohandeep Singh Bisht on multiple projects</p>
         </div>
 
-        <!-- NEW: 2025 professional experiences -->
+        <!-- 2025 professional experiences -->
         <div class="rounded-2xl border p-6 bg-white/90 shadow-sm">
           <h3 class="font-semibold text-lg">Assistant Writer — Shashi Sumeet Productions</h3>
           <p class="text-sm text-slate-600 mt-1">Writers’ room collaboration on long-running television and web projects.</p>
@@ -235,45 +222,33 @@
       <div class="rounded-2xl overflow-hidden border bg-white shadow-sm mb-6">
         <div class="h-24 card-grad"></div>
         <div class="p-6">
-          <div class="flex flex-col md:flex-row gap-4">
-            <!-- NOTE: replace this src with an IMDb/Mubi thumbnail -->
-            <div class="w-full md:w-40 md:flex-shrink-0">
-              <img
-                src="/images/ek-film-director-ki-maut-thumb.jpg"
-                alt="Ek Film Director Ki Maut Poster"
-                class="thumb-poster w-full h-52 md:h-full"
-              />
-            </div>
-            <div class="flex-1 flex flex-col gap-3">
-              <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                <h3 class="text-xl font-semibold">Ek Film Director Ki Maut</h3>
-                <div class="flex gap-2">
-                  <!-- Updated Vimeo button link -->
-                  <a
-                    href="https://vimeo.com/869965869/edbe0d789c?fl=ip&fe=ec"
-                    target="_blank"
-                    rel="noopener"
-                    class="btn-primary px-3 py-1 rounded-full text-sm"
-                  >
-                    Vimeo
-                  </a>
-                  <a
-                    href="https://m.imdb.com/title/tt15741120/?language=hi-in&ref_=ext_shr_lnk"
-                    target="_blank"
-                    rel="noopener"
-                    class="px-3 py-1 rounded-full text-sm border border-indigo-100 bg-indigo-50/60"
-                  >
-                    IMDb
-                  </a>
-                </div>
-              </div>
-              <ul class="list-disc pl-5 text-sm space-y-1">
-                <li>Selections: IFFSA Toronto, 7th Jaipur Film World (2023)</li>
-                <li>Awards: Druk IFF, Royal Society of Television & Motion Picture Awards, Calcutta ICFF, Black Swan IFF, Darbhanga IFF, Indo-French IFF, Virgin Spring Cinefest, Chambal IFF</li>
-                <li>Prague International Indie Film Festival — Semi-Finalist</li>
-              </ul>
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <h3 class="text-xl font-semibold">Ek Film Director Ki Maut</h3>
+            <div class="flex gap-2">
+              <!-- Updated Vimeo button link -->
+              <a
+                href="https://vimeo.com/869965869/edbe0d789c?fl=ip&fe=ec"
+                target="_blank"
+                rel="noopener"
+                class="btn-primary px-3 py-1 rounded-full text-sm"
+              >
+                Vimeo
+              </a>
+              <a
+                href="https://m.imdb.com/title/tt15741120/?language=hi-in&ref_=ext_shr_lnk"
+                target="_blank"
+                rel="noopener"
+                class="px-3 py-1 rounded-full text-sm border border-indigo-100 bg-indigo-50/60"
+              >
+                IMDb
+              </a>
             </div>
           </div>
+          <ul class="list-disc pl-5 mt-3 text-sm space-y-1">
+            <li>Selections: IFFSA Toronto, 7th Jaipur Film World (2023)</li>
+            <li>Awards: Druk IFF, Royal Society of Television & Motion Picture Awards, Calcutta ICFF, Black Swan IFF, Darbhanga IFF, Indo-French IFF, Virgin Spring Cinefest, Chambal IFF</li>
+            <li>Prague International Indie Film Festival — Semi-Finalist</li>
+          </ul>
         </div>
       </div>
 
@@ -391,7 +366,6 @@
         <ul class="list-disc pl-5 mt-2 text-sm space-y-2">
           <li>
             <strong>Ek Film Director Ki Maut</strong> —
-            <!-- Updated Vimeo link here as well -->
             <a class="underline" target="_blank" rel="noopener" href="https://vimeo.com/869965869/edbe0d789c?fl=ip&fe=ec">Vimeo</a> ·
             <a class="underline" target="_blank" rel="noopener" href="https://m.imdb.com/title/tt15741120/?language=hi-in&ref_=ext_shr_lnk">IMDb</a>
           </li>
